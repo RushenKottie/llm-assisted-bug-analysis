@@ -34,7 +34,7 @@ After the golden dataset was fully prepared and labeled, the next step was to ev
 
 Each issue from the dataset was processed sequentially using a fixed prompt. For every record, the model returned three outputs: the predicted label, a short reasoning explaining the decision, supporting evidence — a specific phrase extracted from the issue description that justified the classification
 
-The exact system prompts used in this phase are available here.
+The exact system prompts used in this phase are available [here](https://github.com/RushenKottie/llm-assisted-bug-analysis/blob/6a7d59c6287225b309eb992f7621db1864072a10/inference/foundry_client.py#L7).
 
 Before calculating the metrics, it is important to clarify the classification scheme used in this study. The analysis focused on three testing levels: service testing, end-to-end testing, manual testing.
 
